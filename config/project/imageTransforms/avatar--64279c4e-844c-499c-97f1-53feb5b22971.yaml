@@ -1,0 +1,9 @@
+format: null
+handle: avatar
+height: 100
+interlace: none
+mode: crop
+name: avatar
+position: center-center
+quality: 60
+width: 120

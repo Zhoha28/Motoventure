@@ -1,0 +1,66 @@
+dateModified: 1656560965
+email:
+  fromEmail: zhohadamani@gmail.com
+  fromName: 'moto adventure'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  uploads:
+    hasUrls: true
+    name: uploads
+    settings:
+      path: $ASSET_BAsE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+meta:
+  __names__:
+    2ed2fbd2-fb7f-419b-8ea7-fbdcda8401b9: uploads # uploads
+    4cf2802f-9d93-47a8-ba4e-b33e66c43e66: 'link text' # link text
+    5c568884-a74e-47d2-b1ea-5d81db885ea2: 'general pages' # general pages
+    005ea968-4618-40c7-919c-bc94e3f5a992: heroimage # heroimage
+    22bb0889-8df9-41af-a974-6ab292452e45: photos # photos
+    24c2098c-2e01-483e-b4e2-dc6c8ff351f8: rider # rider
+    31baf2c8-bfdc-4bad-a539-6a041a264a18: navigationlinks # navigationlinks
+    42bb4d12-f299-499f-89a1-ec64c1ce71f3: hero # hero
+    44cd2701-6b0c-46ef-95c4-8e9b99eb17de: 'Short Description' # Short Description
+    54f45b31-431b-47d8-93d3-7426735bbeac: homepage # homepage
+    63be1966-f1d6-4216-9030-93c022cd821a: ridersintrocontent # ridersintrocontent
+    65a7bfef-dc97-443c-94d7-0d99bd8f703b: Stories # Stories
+    400f9414-5949-4f55-ac41-9cde781acce1: 'story listing' # story listing
+    498fbef4-7240-4bb5-8869-fd95b1889e5b: Common # Common
+    653d4fd4-9e0c-46a9-b0b7-e1d2994832bc: 'story listing' # story listing
+    745b1a43-7617-4b70-9a4c-c6cfd8bbfce0: herotitle # herotitle
+    3298e2ac-f9f1-4685-b69c-448a7f44bb90: Mototventure # Mototventure
+    27488c7c-63f4-4f62-b05f-70e06a6e997e: Stories # Stories
+    60009bf7-07a5-4a89-82d6-e71180764676: 'Content Image' # Content Image
+    64279c4e-844c-499c-97f1-53feb5b22971: avatar # avatar
+    64549a17-d238-4adf-96b1-8841247e21c2: header # header
+    933239aa-0025-4815-84c6-bc5398af7711: 'moto adventure' # moto adventure
+    6421023b-40ae-4cd3-be1c-9f9cc29815dc: riders # riders
+    a1f30cf9-3820-4744-a995-351b0fdfce8e: photo # photo
+    aeb7f135-cd33-46ac-b8e6-d42d27bd98ee: home # home
+    b5f4f457-8dd0-45b2-8459-dff2b3b22993: home # home
+    ba595c21-d56b-4ce3-adb4-5f89959a286e: 'rider descriptio' # rider descriptio
+    bef3da2c-e58a-45d1-84cd-04a7a3e5dc52: 'rider name' # rider name
+    c3abcb66-f00b-4707-8f27-236b1f1c1e3b: Default # Default
+    c10a7209-1d54-40af-b5b4-0849f23fae08: slider # slider
+    cf3e992d-79da-41da-be50-5e9b270c91a5: link # link
+    f1cb25ee-cb05-4987-9160-dc88b07712e9: 'Link Destination' # Link Destination
+    f60e97d1-ef48-4d9c-8973-e2e95ba388a8: footer # footer
+    f76a1b80-08e8-4246-b6c5-5040491b383b: 'Rich Text' # Rich Text
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: 'moto adventure'
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

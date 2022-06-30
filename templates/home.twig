@@ -1,0 +1,65 @@
+{% extends "index" %}
+{% block content %}
+ 
+{% cache using key 'home-page' %}
+
+ {% set image = entry.heroimage.one() %}
+     <section class="hero" style="background-image: url('{{ image.getUrl('hero') }}')">
+      <div class="hero__content content-column">
+
+        <h1>{{entry.herotitle}}</h1>
+        
+      </div>
+    </section>
+ {% set featuredStory = craft.entries.section('stories').one() %}
+    <section class="featured-story">
+      <div class="featured-story__flex content-column">
+
+        <div class="featured-story__content">
+
+          <h2>{{ featuredStory.title }}</h2>
+          
+         {{featuredStory.shortDescription}}
+          <p>
+            <a href="{{featuredStory.url}}" class="cta-link">Discover the full story</a>
+          </p>
+          
+        </div>
+
+
+        <div class="featured-story__slider">
+          
+          <!-- Slider Component -->
+        {% include "components/slider" with {
+          photos: featuredStory.photos.all()
+        } %}
+
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="section section--more-padding section--light section--angled-top">
+      <div class="content-column centered">
+
+        {{ entry.ridersintrocontent }}
+        
+        <div class="flex-columns">
+
+        {% for rider in entry.riders.all() %}
+
+        {% set photo = rider.photo.one() %}
+          <div class="flex-columns__item">
+            <img src="{{ photo.getUrl('avatar') }}" alt="{{ rider.riderName }}" class="flex-columns__image">
+            <h4>{{ rider.riderName }}</h4>
+            <p>{{ rider.riderDescription }}</p>
+          </div>
+
+         {% endfor %}
+          
+        </div>
+        
+      </div>
+    </section>
+{% endcache %}
+    {% endblock %}

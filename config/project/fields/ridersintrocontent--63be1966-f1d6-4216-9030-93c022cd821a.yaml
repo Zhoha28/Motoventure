@@ -1,0 +1,27 @@
+columnSuffix: fdcemzvm
+contentColumnType: text
+fieldGroup: 54f45b31-431b-47d8-93d3-7426735bbeac # homepage
+handle: ridersintrocontent
+instructions: null
+name: ridersintrocontent
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

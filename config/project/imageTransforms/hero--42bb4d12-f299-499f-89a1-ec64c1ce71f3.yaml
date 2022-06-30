@@ -1,0 +1,9 @@
+format: webp
+handle: hero
+height: 900
+interlace: none
+mode: fit
+name: hero
+position: center-center
+quality: 60
+width: 1400

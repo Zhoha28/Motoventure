@@ -1,0 +1,19 @@
+columnSuffix: vdojkkto
+contentColumnType: text
+fieldGroup: 498fbef4-7240-4bb5-8869-fd95b1889e5b # Common
+handle: shortDescription
+instructions: null
+name: 'Short Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: 'Add a short description'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

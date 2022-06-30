@@ -1,0 +1,19 @@
+columnSuffix: temvrjzj
+contentColumnType: text
+fieldGroup: 54f45b31-431b-47d8-93d3-7426735bbeac # homepage
+handle: herotitle
+instructions: null
+name: herotitle
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
